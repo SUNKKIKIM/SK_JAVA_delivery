@@ -67,7 +67,7 @@ public class login extends JFrame{
 			JButton b = (JButton)e.getSource();
 			if(b.getText().equals("로그인"))
 			{
-				sign_up s = new sign_up();
+				main_menu s = new main_menu();
 			}
 		}
 	}
